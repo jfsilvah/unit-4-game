@@ -57,38 +57,6 @@ body{
     border-left-color: #8d9246;
 }
 
-#figure1{
-    background: url("../images/bastos.jpg");
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: contain;
-    background-color: white;
-}
-
-#figure2{
-    background: url("../images/oros.jpg");
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: contain;
-    background-color: white;
-}
-
-#figure3{
-    background: url("../images/espadas.jpg");
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: contain;
-    background-color: white;
-}
-
-#figure4{
-    background: url("../images/copas.jpg");
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: contain;
-    background-color: white;
-}
-
 .totalCount {
     float: left;
     text-align: center;
@@ -123,9 +91,9 @@ body{
     font-family: 'Play', sans-serif;
     font-size: 2.5vw;
     color: whitesmoke;
-
 }
 
-.lineBoard{
-    margin: auto auto;
+#message{
+    color: #ffee00;
 }
+
