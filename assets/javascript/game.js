@@ -65,12 +65,12 @@ function putImages() {
 function countClick(){
     score = score + buttonValues[this.id.replace("button","")-1];
     $("#scoreCount").text(score);
-    $("#message").html("<br>");
+    $("#message").html("");
 
     if (score > randomTotal){
         looses++;
         $("#loserScore").text(looses);
-        $("#message").text("You loose !!!");
+        $("#message").text("You Lose !!!");
         reset();
     }
     else if (score === randomTotal){
