@@ -5,14 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Collector Game</title>
-    <link href="https://fonts.googleapis.com/css?family=Limelight&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Play:400,700&display=swap&subset=latin-ext" rel="stylesheet"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
 
 </head>
 <body>
+    <section>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 header_img"></div>
+            <div class="col-lg-4 col-md-4 col-sm-4 title_noPadding">
+                <h1 id="title">Crystal Collector Game</h1>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 header_img"></div>
+        </div>
+    </section>
+    <section class="container-fluid px-0">
+        <div class="randomNumber" id="result">
+            115
+        </div>
     
+        <div class="buttons" id="buttonsArray">
+            <button id="figure1" class="image_content"><img src="#" alt=""></button>
+            <button id="figure2" class="image_content"><img src="#" alt=""></button>
+            <button id="figure3" class="image_content"><img src="#" alt=""></button>
+            <button id="figure4" class="image_content"><img src="#" alt=""></button>
+        </div>
+        <div class="totalCount">
+            <div>Score</div>
+            <div id="scoreCount">0</div>
+        </div>
     
+        <div class="scoreBoard">
+            <div>Wins:</div>
+            <div>0</div>
+            <div><br></div>
+            <div>Losses:</div>
+            <div id="losses">0</p>
+        </div>
+    
+    </section>
+
     
     <script type="text/javascript" src="assets/javascript/game.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

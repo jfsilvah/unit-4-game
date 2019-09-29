@@ -1,0 +1,131 @@
+body{
+    background-image: url("../images/baraja_red_transparent.jpg");
+    background-size:25%;
+}
+
+.header_img{
+    background-image: url("../images/baraja_white.jpg");
+    background-size: contain;
+}
+
+#title{
+    text-align: center;
+    background:red;
+    color: whitesmoke;
+    margin: 0 0 0 0;
+    margin-bottom: 0px;
+    font-family: 'Play', sans-serif;
+    font-size: 3vw;
+}
+
+.title_noPadding{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.randomNumber {
+    width: 15%;
+    margin: 1% 0 0 43%;
+    text-align: center;
+    background-color: #df1e10;
+    border: 1vw solid;
+    border-top-color: #ffee00;
+    border-right-color: #ffee00;
+    border-bottom-color: #8d9246;
+    border-left-color: #8d9246;
+    font-size: 4vw;
+    font-family: 'Play', sans-serif;
+    color: whitesmoke;
+}
+
+.buttons {
+    text-align: center;
+    width: 50%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: 1% 0 0 25%;
+}
+
+.image_content {
+    height: 9vw;
+    width: 9vw;
+    border: 1vw solid;
+    margin: 0 1% 0 3%;
+    border-top-color: #ffee00;
+    border-right-color: #ffee00;
+    border-bottom-color: #8d9246;
+    border-left-color: #8d9246;
+}
+
+#figure1{
+    background: url("../images/bastos.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    background-color: white;
+}
+
+#figure2{
+    background: url("../images/oros.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    background-color: white;
+}
+
+#figure3{
+    background: url("../images/espadas.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    background-color: white;
+}
+
+#figure4{
+    background: url("../images/copas.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    background-color: white;
+}
+
+.totalCount {
+    float: left;
+    text-align: center;
+    background-color: #df1e10;
+    border: 1vw solid;
+    border-top-color: #ffee00;
+    border-right-color: #ffee00;
+    border-bottom-color: #8d9246;
+    border-left-color: #8d9246;
+    width: 26vw;
+    height: 20vw;
+    margin: 1% 0 0 22%;
+    font-family: 'Play', sans-serif;
+    font-size: 5vw;
+    color: whitesmoke;
+}
+
+.scoreBoard {
+    float: right;
+    position: relative;
+    text-align: center;
+    width: 26vw;
+    height: 20vw;
+    background-color: #df1e10;
+    border: 1vw solid;
+    border-top-color: #ffee00;
+    border-right-color: #ffee00;
+    border-bottom-color: #8d9246;
+    border-left-color: #8d9246;
+    margin-top: 1%;
+    margin-right: 20%;
+    font-family: 'Play', sans-serif;
+    font-size: 2.5vw;
+    color: whitesmoke;
+
+}
+
+.lineBoard{
+    margin: auto auto;
+}
